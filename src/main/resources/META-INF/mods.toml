@@ -1,0 +1,38 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="tdfp"
+version="1.0.0"
+displayName="Twilight Delight: Frozen Pride"
+credits="Laokuai233"
+displayURL="https://center.mcmod.cn/55994/"
+logoFile="logo.png"
+authors="Laokuai233"
+description='''
+More delicious desserts in the Twilight Forest!
+'''
+
+[[dependencies.tdfp]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.tdfp]]
+    modId="twilightdelight"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.tdfp]]
+    modId="neapolitan"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
